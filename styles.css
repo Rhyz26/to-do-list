@@ -1,0 +1,53 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    /* background-image: url(./images/to.jpeg); */
+
+/* Cover the entire viewport */
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+#head{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    color:maroon;
+    padding-top:150px;
+    font-size: 4rem;
+
+}
+.icon{
+    text-align: center;
+    color:#451952;
+
+}
+.input{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.input-1{
+    border-radius: 6px;
+    padding:8px;
+}
+.radial{
+    padding:8px;
+
+}
+.radial-1{
+    padding: 8px;
+}
+#tusk{
+    text-align: center;
+    padding-top: 20px;
+    font-size:3rem;
+}
+#tasks-container{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+}
