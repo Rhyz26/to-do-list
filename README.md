@@ -4,6 +4,6 @@
 3. They should also be able to delete a task
 
 ## TOOLS USED
-1. Javascript
+1. Javascript Concepts such as Local Storage, the Document Object Manipulation 
 2. HTML
 3. CSS
