@@ -7,3 +7,6 @@
 1. Javascript Concepts such as Local Storage, the Document Object Manipulation 
 2. HTML
 3. CSS
+
+## DEPLOYMENT
+1. At the top right, the website was hosted to vercel and the link is at the top right.
