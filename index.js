@@ -37,7 +37,7 @@ buttonElement.addEventListener("click", addItem);
 //load tasks from the local storage
 
 let tasks = localStorage.getItem('tasks');
-if (tasks !== null){
+if (tasks !== null){// this means if the tasks are there
     let taskArray = JSON.parse(tasks);
     let taskElement = taskArray.map((value, id)=>{
         let listItem = document.createElement("li");
@@ -46,5 +46,5 @@ if (tasks !== null){
 
         return listItem;
     })
-    taskContainer.append(...taskElement);
+    taskContainer.append(...taskElement);// we use the ... to spread out the contents of the list 
 }
